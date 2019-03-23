@@ -1,0 +1,108 @@
+
+/*resset*/
+
+*{
+    margin: 0;
+    padding: 0;
+}
+html, body { height:100%}
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,700');
+
+body{
+font-family: 'Montserrat', sans-serif;
+}
+
+
+nav ul {
+width:50%;
+float:right;
+}
+
+nav ul li{
+display:inline;
+padding:20px;
+float:right;
+color:white;
+}
+
+nav ul li:hover{
+color: #D70027;
+background:white;
+}
+
+nav ul li:active{
+color: #D70027;
+background:white;
+}
+
+.classoutside{
+height:100px;
+width:100px;
+float:left;
+border:1px solid white;
+ cursor: pointer;
+ position: absolute;
+}
+
+.classdest{
+height:100px;
+width:100px;
+float:left;
+border:1px solid white;
+background: #FFC596;
+}
+
+#toppuzzle{
+
+margin-left:20px;
+margin-right:20px;
+float:left;
+margin-top:20px;
+
+}
+
+#newone{
+color:#fff;
+background:#A50614;
+float:left;
+clear:both;
+display:none;
+margin-left:20px;
+padding:10px;
+text-align:center;
+cursor: pointer;
+
+}
+#newone:hover{
+background:#C11625;
+
+
+}
+#divdestination{
+margin-left:20px;
+margin-top:20px;
+float:left;
+}
+
+.classoutside:hover{
+animation-name: animation;
+animation-duration: .5s;
+border:1px solid #333;
+}
+
+#size{
+float:left;
+clear:both;
+margin-top:20px;
+margin-left:20px;
+display:none;
+
+}
+@keyframes animation {
+   from {border:1px solid #fff;}
+  to {border:1px solid #333;}
+}
+
+input#quantity{
+width:40px;
+}
