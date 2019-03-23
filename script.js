@@ -78,8 +78,8 @@ for (var t = 0; t < numsquares; t++) {
 $(".classoutside").mouseup(function() {
     var post = $(this).position();
     var square = $('#divdestination').position();
-    if (post.left + 50 > square.left && post.left + 50 < square.left + 304 
-    && post.top + 50 > square.top && post.top + 50 < square.top + 304) {
+    if (post.left + 50 > square.left && post.left + 50 < square.left + 101*squaresLine 
+    && post.top + 50 > square.top && post.top + 50 < square.top + 101*squaresLine ) {
         //detect closest square
         var dist = Array(numsquares);
         for (y = 0; y < numsquares; y++) {
