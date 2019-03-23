@@ -3,7 +3,7 @@ var url = new URL(location.href);
 var sizearg = url.searchParams.get("size");
 var numsquares = 4;
 if (sizearg){
-	var numsquares = sizearg*sizearg;
+	numsquares = sizearg*sizearg;
 }
 var squaresLine = Math.sqrt(numsquares);
 img.src = "https://source.unsplash.com/random/" + squaresLine * 100 + "x" + squaresLine * 100;
