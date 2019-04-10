@@ -8,8 +8,8 @@ if (sizearg){
 var squaresLine = Math.sqrt(numsquares);
 img.src = "https://source.unsplash.com/random/" + squaresLine * 100 + "x" + squaresLine * 100;
 var i = 0;
-var div = Array(9);
-var randorder = Array(9);
+var div = Array(numsquares);
+var randorder = Array(numsquares);
 var x = 0;
 var y = 0;
 var xp = 0;
